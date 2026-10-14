@@ -31,3 +31,7 @@ test('multiply 3 x 4 to equal 12', () => {
 test('multiply -3 x -6 to equal 18', () => {
   expect(calculator.multiply(-3, -6)).toBe(18);
 });
+
+test('divide 10 / 0 to equal null', () => {
+    expect(calculator.divide(10, 0)).toBe(null);
+});
