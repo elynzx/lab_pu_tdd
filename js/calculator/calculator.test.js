@@ -16,8 +16,6 @@ test('subtract -5 - -10 to equal 5', () => {
   expect(calculator.subtract(-5, -10)).toBe(5);
 });
 
-/*  divide */
-
 test('divide 4 / 2 to equal 2', () => {
   expect(calculator.divide(4, 2)).toBe(2);
 });
